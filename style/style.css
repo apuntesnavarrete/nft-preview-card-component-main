@@ -2,8 +2,8 @@
     --main-bg-color: hsl(217, 54%, 11%);
     --card-bg-color: hsl(216, 50%, 16%);
     --line-bg-color: hsl(215, 32%, 27%);
-    --white-: hsl(0, 0%, 100%);
-    --soft-blue :hsl(215, 51%, 70%);
+    --white-: hsl(210, 2%, 78%);
+    --soft-blue :hsl(215, 29%, 53%);
     --Cyan--: hsl(178, 100%, 50%);
 }
 
@@ -18,9 +18,54 @@ body{
     justify-content: center;
 }
 .contenedor{
-    width: 250px;
-    height: 400px;
-    border: 1px solid black;
+    width: 200px;
+    height: 360px;
+    border: 1px solid none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: var(--card-bg-color);
+
+
+}
+.img_card{
+    width: 100%;
     border-radius: 10px;
 }
-
+.titulo_card{
+    font-size: 0.9rem;
+    color: var(--white-);
+}
+.description_card{
+    font-size: 0.7rem;
+    color: var(--soft-blue);
+    font-weight: 400;
+}
+.card_two_options{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line-bg-color);
+    padding-bottom: 15px;
+}
+.card_eth{
+    color: var(--Cyan--);
+}
+.card_days{
+    color: var(--soft-blue);
+}
+.card_bottom{
+    display: flex;
+    font-size: 0.8rem;
+    color: var(--soft-blue);
+}
+.card_bottom_img{
+    margin: 0 8px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    align-self: center;
+}
+.card_bottom_p span{
+    color: var(--white-);
+}
